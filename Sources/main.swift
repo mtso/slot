@@ -22,7 +22,7 @@ func spin(with bet: Int) -> Int {
 	print(wheel1, wheel2, wheel3, terminator: " ")
 
 	if wheel1 == wheel2 && wheel2 == wheel3 {
-		let modifier = arc4random_uniform(3) + 4 // 4 or 5 or 6
+		let modifier = arc4random_uniform(3) + 5 // 5 or 6 or 7
 		let winnings = bet * Int(wheel1) * Int(modifier)
 
 		print("+\(winnings) ", terminator: "")
@@ -33,13 +33,10 @@ func spin(with bet: Int) -> Int {
 	}
 }
 
-// for i in 0...1000000 {
-// print("")
 while (shouldContinue) {
 
 	print("Day\(day) \(balance)c: ", terminator: "")
 
-	// var input: String?; input = "1" // String( ((arc4random_uniform(UInt32(balance) - 1) + 1) / 2) + 1 )
 	let input = readLine(strippingNewline: true)
 
 	if let bet = Int(input!) {
