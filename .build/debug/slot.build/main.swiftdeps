@@ -1,0 +1,178 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "balance"
+- "day"
+- "highest"
+- "shouldContinue"
+- "spin"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "+="
+- "UnicodeScalarType"
+- !private "&&"
+- !private "arc4random_uniform"
+- !private "*"
+- "spin"
+- "-="
+- "day"
+- "-"
+- "Int"
+- "highest"
+- "BooleanLiteralType"
+- "shouldContinue"
+- "FloatLiteralType"
+- "StringLiteralType"
+- "readLine"
+- !private "+"
+- "IntegerLiteralType"
+- ">"
+- "balance"
+- "print"
+depends-member:
+- ["Ps17BitwiseOperations", "Stride"]
+- ["Ps17BitwiseOperations", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Ps7Boolean", "_getBuiltinLogicValue"]
+- ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps7CVarArg", "Stride"]
+- ["Ps7CVarArg", "init"]
+- ["Vs9Character", "deinit"]
+- ["Ps10Comparable", "Stride"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Stride"]
+- ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- ["Ps23CustomStringConvertible", "Stride"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "Stride"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["Sf", "deinit"]
+- ["Ps8Hashable", "Stride"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- ["Si", "Stride"]
+- ["Si", "deinit"]
+- ["Si", "init"]
+- ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- ["Vs4Int8", "deinit"]
+- ["Ps7Integer", "Stride"]
+- ["Ps7Integer", "init"]
+- ["Ps17IntegerArithmetic", "Stride"]
+- ["Ps17IntegerArithmetic", "init"]
+- ["Ps25IntegerLiteralConvertible", "Stride"]
+- ["Ps25IntegerLiteralConvertible", "init"]
+- ["Ps10MirrorPath", "Stride"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps21NilLiteralConvertible", "some"]
+- ["Sq", "some"]
+- ["Ps12OutputStream", "init"]
+- ["Ps13SignedInteger", "Stride"]
+- ["Ps13SignedInteger", "init"]
+- ["Ps12SignedNumber", "Stride"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps10Streamable", "init"]
+- ["Ps10Strideable", "Stride"]
+- ["Ps10Strideable", "init"]
+- ["SS", "init"]
+- ["Ps30StringInterpolationConvertible", "init"]
+- ["Ps24StringLiteralConvertible", "init"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- ["Sc", "deinit"]
+- ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "Stride"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- ["Ps14_Incrementable", "Stride"]
+- ["Ps14_Incrementable", "init"]
+- ["Ps8_Integer", "Stride"]
+- ["Ps8_Integer", "init"]
+- ["Ps18_IntegerArithmetic", "Stride"]
+- ["Ps18_IntegerArithmetic", "init"]
+- ["Ps14_SignedInteger", "Stride"]
+- ["Ps14_SignedInteger", "init"]
+- ["Ps11_Strideable", "Stride"]
+- ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7Boolean"
+- "Ps25BooleanLiteralConvertible"
+- "Ps7CVarArg"
+- "Vs9Character"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Sf"
+- "Ps8Hashable"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps25IntegerLiteralConvertible"
+- "Ps10MirrorPath"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "Ps12OutputStream"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Streamable"
+- "Ps10Strideable"
+- "SS"
+- "Ps30StringInterpolationConvertible"
+- "Ps24StringLiteralConvertible"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- "Sc"
+- "Ps31UnicodeScalarLiteralConvertible"
+- "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps32_BuiltinStringLiteralConvertible"
+- "Ps37_BuiltinUTF16StringLiteralConvertible"
+- "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+interface-hash: "1c3a531858d6f3199ad4a76d6852df1b"
