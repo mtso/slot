@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.30 clang-800.0.24)"
-options: "90f1ebaea2e61b3810512edd9bfec994"
-build_time: [522661317, 482310000]
-inputs:
-  "/Users/matthewtso/git/slot-cli/Sources/main.swift": [522661314, 0]
